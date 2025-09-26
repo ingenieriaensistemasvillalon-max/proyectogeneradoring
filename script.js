@@ -14,7 +14,7 @@ const musica = [
   "Amore."
   "El vals del minuto."
   "Angels."
-];
+   ];
 
 // Definimos la función que mostrará una cita aleatoria
 function generarMusica() {
@@ -28,6 +28,7 @@ function generarMusica() {
   // Cambiamos su contenido de texto por la musica que corresponde al índice generado
   document.getElementById("quote").innerText = musica[indice];
 }
+
 
 
 
