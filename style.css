@@ -31,18 +31,19 @@ h1 {
 }
 
 button {
-  background: #ff9800; /* Color de fondo naranja */
+  background: #ffeb3b; /* Color de fondo amarillo dorado */
   border: none; /* Sin borde */
-  padding: 12px 20px; /* Espaciado interno */
-  font-size: 16px; /* Tamaño de letra */
-  border-radius: 10px; /* Bordes redondeados */
+  padding: 22px 23px; /* Espaciado interno */
+  font-size: 18px; /* Tamaño de letra */
+  border-radius: 20px; /* Bordes redondeados */
   cursor: pointer; /* Cambia el cursor a "mano" al pasar encima */
-  transition: 0.3s; /* Suaviza las transiciones al pasar el mouse */
+  transition: 0.6s; /* Suaviza las transiciones al pasar el mouse */
 }
 
 button:hover {
-  background: #e68900; /* Color más oscuro al pasar el mouse */
+  background: #ffb300; /* Color más oscuro al pasar el mouse */
 }
+
 
 
 
