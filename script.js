@@ -6,17 +6,17 @@ const musica = [
   "Imagine.",
   "Married Life.",
   "Comptine d'un Autre été: L'Après-Midi.",
-  "Your Song."
-  "Love of My Life."
-  "Here, There and Everywhere."
-  "Hallelujah."
-  "Shallow."
-  "Amore."
-  "El vals del minuto."
-  "Angels."
+  "Your Song.",
+  "Love of My Life.",
+  "Here, There and Everywhere.",
+  "Hallelujah.",
+  "Shallow.",
+  "Amore.",
+  "El vals del minuto.",
+  "Angels.",
 ];
 
-// Definimos la función que mostrará una musica aleatoria
+// Definimos la función que mostrará una cancion aleatoria
 function generarMusica() {
   // Generamos un número aleatorio entre 0 y la cantidad de musicas (musica.length)
   // Math.random() → número entre 0 y 1
@@ -28,7 +28,6 @@ function generarMusica() {
   // Cambiamos su contenido de texto por la musica que corresponde al índice generado
   document.getElementById("quote").innerText = musica[indice];
 }
-
 
 
 
