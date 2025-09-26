@@ -5,9 +5,8 @@ const musica = [
   "My Heart Will Go On.",
   "Imagine.",
   "Married Life.",
-  "Comptine d un Autre été:
-  L'Après-Midi.",
-  "Your Song.",
+  "Comptine d un Autre été: 
+ "Your Song.",
   "Love of My Life.",
   "Here, There and Everywhere.",
   "Hallelujah.",
@@ -28,6 +27,7 @@ function generarMusica() {
   // Cambiamos su contenido de texto por la musica que corresponde al índice generado
   document.getElementById("quote").innerText = musica[indice];
  }
+
 
 
 
