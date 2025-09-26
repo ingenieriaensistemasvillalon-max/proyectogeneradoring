@@ -19,20 +19,17 @@ const musica = [
  <!-- Aquí se mostrará el autor (por ahora vacío) -->
   <p id="autor"></p>   
 const autores = [
-     "Yiruma",          // River Flows In You
-      "Elvis Presley",   // Can't Help Falling in Love
-      "Céline Dion",     // My Heart Will Go On
-      "John Lennon",     // Imagine
-      "Michael Giacchino", // Married Life
-      "Yann Tiersen",    // Comptine  d un Autre été
-      "Elton John",      // Your Song
-      "Queen",           // Love of My Life
-      "The Beatles",     // Here, There and Everywhere
-      "Leonard Cohen",   // Hallelujah
-      "Lady Gaga & Bradley Cooper", // Shallow
-      "Andrea Bocelli",  // Amore
-      "Frédéric Chopin", // El vals del minuto
-      "Robbie Williams"  // Angels
+    "Yiruma",// River Flows In You
+    "Elvis Presley",// Can't Help Falling in Love
+    "Céline Dion", 
+     "John Lennon",
+     "Michael Giacchino",
+    "Yann Tiersen",
+     "Elton John",
+      "Queen",
+      "The Beatles",
+      "Leonard Cohen",
+      "Lady Gaga & Bradley
  ];
 // Definimos la función que mostrará una cancion aleatoria
 function generarMusica() {
@@ -47,6 +44,7 @@ function generarMusica() {
   document.getElementById("quote").innerText = musica[indice];
   document.getElementById("autor").innerText = "Autor: " + autores[indice];
 }
+
 
 
 
