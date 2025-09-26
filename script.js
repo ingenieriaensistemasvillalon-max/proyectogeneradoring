@@ -18,9 +18,9 @@ const musica = [
 
 // Definimos la función que mostrará una cita aleatoria
 function generarMusica() {
-  // Generamos un número aleatorio entre 0 y la cantidad de musicas (musica.length)
+  // Generamos un número aleatorio entre 0 y la cantidad de musica (musica.length)
   // Math.random() → número entre 0 y 1
-  // * citas.length → escala ese número al rango de musicas disponibles
+  // * citas.length → escala ese número al rango de musica disponibles
   // Math.floor() → redondea hacia abajo para obtener un número entero válido
   const indice = Math.floor(Math.random() * musica.length);
 
@@ -28,5 +28,6 @@ function generarMusica() {
   // Cambiamos su contenido de texto por la musica que corresponde al índice generado
   document.getElementById("quote").innerText = musica[indice];
 }
+
 
 
