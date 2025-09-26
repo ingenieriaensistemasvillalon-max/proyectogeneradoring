@@ -7,12 +7,6 @@ const musica = [
   "Married Life.",
   "Your Song.",
   "Love of My Life.",
-  "Here, There and Everywhere.",
-  "Hallelujah.",
-  "Shallow.",
-  "Amore.",
-  "El vals del minuto.",
-  "Angels.",
 ];
 
 // Definimos la función que mostrará una cancion aleatoria
@@ -27,6 +21,26 @@ function generarMusica() {
   // Cambiamos su contenido de texto por la musica que corresponde al índice generado
   document.getElementById("quote").innerText = musica[indice];
 }
+// Array de canciones con sus autores
+const musica = [
+    { titulo: "River Flows In You", autor: "Yiruma" },
+    { titulo: "Can't Help Falling in Love", autor: "Elvis Presley" },
+    { titulo: "My Heart Will Go On", autor: "Celine Dion" },
+    { titulo: "Imagine", autor: "John Lennon" },
+    { titulo: "Married Life", autor: "Michael Giacchino" },
+    { titulo: "Your Song", autor: "Elton John" },
+    { titulo: "Love of My Life", autor: "Queen" }
+];
+
+// Función para mostrar canción y autor aleatorio
+document.getElementById("nuevaMusica").addEventListener("click", () => {
+    const indice = Math.floor(Math.random() * musica.length);
+    const seleccion = musica[indice];
+    
+    document.getElementById("cancion").textContent = seleccion.titulo;
+    document.getElementById("autor").textContent = seleccion.autor;
+});
+
 
 
 
