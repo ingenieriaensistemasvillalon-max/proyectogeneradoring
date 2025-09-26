@@ -12,21 +12,21 @@ body {
 
 .container {
   background: rgba(0, 0, 0, 0.9); /* Fondo negro semitransparente */
-  padding: 30px; /* Espacio interno alrededor del contenido */
-  border-radius: 15px; /* Bordes redondeados */
-  width: 80%; /* Ocupa 80% del ancho de la pantalla */
+  padding: 50px; /* Espacio interno alrededor del contenido */
+  border-radius: 20px; /* Bordes redondeados */
+  width: 60%; /* Ocupa 60% del ancho de la pantalla */
   max-width: 500px; /* No supera los 500px de ancho */
-  box-shadow: 0px 5px 15px rgba(0,0,0,0.3); /* Sombra para dar efecto flotante */
+  box-shadow: 0px 8px 17px rgba(0,0,0,0.3); /* Sombra para dar efecto flotante */
 }
 
 h1 {
-  margin-bottom: 20px; /* Espacio debajo del título */
-  font-size: 24px; /* Tamaño de letra del título */
+  margin-bottom: 30px; /* Espacio debajo del título */
+  font-size: 29px; /* Tamaño de letra del título */
 }
 
 #quote {
-  font-size: 18px; /* Tamaño de letra de las citas */
-  margin: 20px 0; /* Espacio arriba y abajo */
+  font-size: 17px; /* Tamaño de letra de la musica */
+  margin: 24px 0; /* Espacio arriba y abajo */
   min-height: 60px; /* Altura mínima para evitar que el cuadro cambie de tamaño cuando cambia el texto */
 }
 
@@ -43,6 +43,7 @@ button {
 button:hover {
   background: #e68900; /* Color más oscuro al pasar el mouse */
 }
+
 
 
 
