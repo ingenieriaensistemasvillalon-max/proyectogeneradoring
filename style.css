@@ -1,47 +1,55 @@
 body {
-  font-family: Garamond,serif; /* Fuente de texto de toda la página */
-  background: linear-gradient(135deg, #66cc00, #2575fc); /* Fondo degradado diagonal */
-  color: #A52A2A; /* Color de texto cafe */
-  text-align: left; /* Centra el texto horizontalmente */
-  height: 100vh; /* Ocupa el 100% de la altura de la ventana */
-  margin: 5; /* márgenes por defecto */
-  display: flex; /* Activa flexbox */
-  justify-content: left; /* Centra el contenido horizontalmente */
-  align-items: left; /* Centra el contenido verticalmente */
-}
+    font-family: Garamond, serif;
+    background: linear-gradient(135deg, #66cc00, #2575fc);
+    color: #A52A2A;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    align-items: center;     /* centra verticalmente */
+  }
 
-.container {
-  background: rgba(0, 0, 0, 0.9); /* Fondo negro semitransparente */
-  padding: 30px; /* Espacio interno alrededor del contenido */
-  border-radius: 15px; /* Bordes redondeados */
-  width: 80%; /* Ocupa 80% del ancho de la pantalla */
-  max-width: 500px; /* No supera los 500px de ancho */
-  box-shadow: 0px 5px 15px rgba(0,0,0,0.3); /* Sombra para dar efecto flotante */
-}
+  .container {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+    text-align: left;
+  }
 
-h1 {
-  margin-bottom: 20px; /* Espacio debajo del título */
-  font-size: 24px; /* Tamaño de letra del título */
-}
+  h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
 
-#quote {
-  font-size: 18px; /* Tamaño de letra de las citas */
-  margin: 20px 0; /* Espacio arriba y abajo */
-  min-height: 60px; /* Altura mínima para evitar que el cuadro cambie de tamaño cuando cambia el texto */
-}
+  #quote {
+    font-size: 18px;
+    margin: 20px 0;
+    min-height: 60px;
+  }
 
-button {
-  background: #ff9800; /* Color de fondo naranja */
-  border: none; /* Sin borde */
-  padding: 12px 20px; /* Espaciado interno */
-  font-size: 16px; /* Tamaño de letra */
-  border-radius: 10px; /* Bordes redondeados */
-  cursor: pointer; /* Cambia el cursor a "mano" al pasar encima */
-  transition: 0.3s; /* Suaviza las transiciones al pasar el mouse */
-}
+  button {
+    background: #ff9800;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
 
-button:hover {
-  background: #e68900; /* Color más oscuro al pasar el mouse */
-}
+  button:hover {
+    background: #e68900;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Mi Caja de Texto</h1>
+    <p id="quote">Aquí va tu cita o texto.</p>
+    <button>Click Aquí</button>
+
 
 
