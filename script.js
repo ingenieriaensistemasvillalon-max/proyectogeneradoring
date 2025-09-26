@@ -5,7 +5,7 @@ const musica = [
   "My Heart Will Go On.",
   "Imagine.",
   "Married Life.",
-  "Comptine d'un Autre été:
+  "Comptine d un Autre été:
   L'Après-Midi.",
   "Your Song.",
   "Love of My Life.",
@@ -19,12 +19,12 @@ const musica = [
  <!-- Aquí se mostrará el autor (por ahora vacío) -->
   <p id="autor"></p>   
 const autores = [
-      "Yiruma",          // River Flows In You
+     "Yiruma",          // River Flows In You
       "Elvis Presley",   // Can't Help Falling in Love
       "Céline Dion",     // My Heart Will Go On
       "John Lennon",     // Imagine
       "Michael Giacchino", // Married Life
-      "Yann Tiersen",    // Comptine...
+      "Yann Tiersen",    // Comptine  d un Autre été
       "Elton John",      // Your Song
       "Queen",           // Love of My Life
       "The Beatles",     // Here, There and Everywhere
@@ -33,7 +33,7 @@ const autores = [
       "Andrea Bocelli",  // Amore
       "Frédéric Chopin", // El vals del minuto
       "Robbie Williams"  // Angels
-    ];
+ ];
 // Definimos la función que mostrará una cancion aleatoria
 function generarMusica() {
   // Generamos un número aleatorio entre 0 y la cantidad de musicas (musica.length)
@@ -45,8 +45,9 @@ function generarMusica() {
   // Buscamos en el documento el elemento con id="quote"
   // Cambiamos su contenido de texto por la musica que corresponde al índice generado
   document.getElementById("quote").innerText = musica[indice];
-  getElementById("autor").innerText = "Autor: " + autores[indice];
+  document.getElementById("autor").innerText = "Autor: " + autores[indice];
 }
+
 
 
 
