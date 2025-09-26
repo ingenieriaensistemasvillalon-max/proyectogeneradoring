@@ -6,8 +6,8 @@ body {
   height: 100vh; /* Ocupa el 100% de la altura de la ventana */
   margin: 5; /* márgenes por defecto */
   display: flex; /* Activa flexbox */
-  justify-content: left; /* Centra el contenido horizontalmente */
-  align-items: left; /* Centra el contenido horizonatlmente */
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido horizonatlmente */
 }
 
 .container {
@@ -43,6 +43,7 @@ button {
 button:hover {
   background: #ffb300; /* Color más oscuro al pasar el mouse */
 }
+
 
 
 
