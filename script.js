@@ -21,24 +21,7 @@ function generarMusica() {
   // Cambiamos su contenido de texto por la musica que corresponde al índice generado
   document.getElementById("quote").innerText = musica[indice];
 }
-const musica = [
-  { titulo: "River Flows In You", autor: "Yiruma" },
-  { titulo: "Can't Help Falling in Love", autor: "Elvis Presley" },
-  { titulo: "My Heart Will Go On", autor: "Celine Dion" },
-  { titulo: "Imagine", autor: "John Lennon" },
-  { titulo: "Married Life", autor: "Michael Giacchino" }
-];
 
-const btn = document.getElementById("nuevaMusica");
-const cancionElem = document.getElementById("cancion");
-const autorText = document.getElementById("autorText");
-
-btn.addEventListener("click", () => {
-  const aleatoria = Math.floor(Math.random() * musica.length);
-  cancionElem.textContent = musica[aleatoria].titulo;
-  autorText.textContent = "Autor: " + musica[aleatoria].autor; // Solo texto debajo del botón
-});
-</script>
 
 
 
