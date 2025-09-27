@@ -31,14 +31,14 @@ const musica = [
 
 const btn = document.getElementById("nuevaMusica");
 const cancionElem = document.getElementById("cancion");
-const autorElem = document.getElementById("autor");
+const autorText = document.getElementById("autorText");
 
 btn.addEventListener("click", () => {
   const aleatoria = Math.floor(Math.random() * musica.length);
   cancionElem.textContent = musica[aleatoria].titulo;
-  autorElem.textContent = musica[aleatoria].autor; // Se muestra debajo del botón
+  autorText.textContent = "Autor: " + musica[aleatoria].autor; // Solo texto debajo del botón
 });
-
+</script>
 
 
 
